@@ -22,7 +22,7 @@ function afficher_produits($produits)
         echo "<tr>";
         echo "<td>" . $key . "</td>";
         echo "<td>" . $value . "</td>";
-        echo "</td>";
+        echo "</tr>";
     }
 }
 
